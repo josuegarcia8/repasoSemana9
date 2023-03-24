@@ -289,10 +289,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               FFButtonWidget(
-                                onPressed: () {
-                                  print('Button pressed ...');
+                                onPressed: () async {
+                                  context.pushNamed('Semana10_1');
                                 },
-                                text: 'Button',
+                                text: 'Calendario',
                                 options: FFButtonOptions(
                                   width: 130.0,
                                   height: 40.0,
@@ -327,10 +327,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               FFButtonWidget(
-                                onPressed: () {
-                                  print('Button pressed ...');
+                                onPressed: () async {
+                                  context.pushNamed('semana10_2');
                                 },
-                                text: 'Button',
+                                text: 'Radar',
                                 options: FFButtonOptions(
                                   width: 130.0,
                                   height: 40.0,

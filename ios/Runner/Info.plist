@@ -43,7 +43,8 @@
 	<true/>
 
 
-
+	<key>NSCalendarsUsageDescription</key>
+    <string>Esta App requiere ingresar a la agenda</string>
 
 
 	<key>UILaunchStoryboardName</key>

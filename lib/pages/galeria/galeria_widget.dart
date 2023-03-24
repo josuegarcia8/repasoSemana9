@@ -123,7 +123,7 @@ class _GaleriaWidgetState extends State<GaleriaWidget> {
                                   imagenItem,
                                   width: 100.0,
                                   height: 100.0,
-                                  fit: BoxFit.cover,
+                                  fit: BoxFit.fill,
                                 ),
                               );
                             },

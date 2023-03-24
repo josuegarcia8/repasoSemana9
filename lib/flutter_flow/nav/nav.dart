@@ -59,6 +59,16 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'galeria',
           path: '/galeria',
           builder: (context, params) => GaleriaWidget(),
+        ),
+        FFRoute(
+          name: 'Semana10_1',
+          path: '/semana101',
+          builder: (context, params) => Semana101Widget(),
+        ),
+        FFRoute(
+          name: 'semana10_2',
+          path: '/semana102',
+          builder: (context, params) => Semana102Widget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
       urlPathStrategy: UrlPathStrategy.path,
